@@ -5,7 +5,7 @@
 {% assign overview_list = include.overview_list | split: '--' %}
 {% assign usage_list = include.usage_list | split: '--' %}
 
-<div style="display: flex; flex-wrap: wrap; gap: 5%;">
+<div style="display: flex; flex-wrap: wrap; gap: 5%; margin-top: 5%; margin-bottom: 5%">
     <div style="flex: 1 1 300px; align-self: center">
         <img src="{{ include.image }}" alt="{{ include.image }}" style="object-fit: contain;">
     </div>
