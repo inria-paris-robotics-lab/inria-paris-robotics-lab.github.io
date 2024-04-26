@@ -7,10 +7,12 @@ title: Solo
     shortname="Solo"
     fullname="ODRI Solo-12"
     description=""
-    image="imgs/solo.jpg"
+    image="imgs/Solo.jpg"
     tag_list="Locomotion,Control,Estimation"
     overview_list="
-        12 DoFs quadruped
+        12 DoFs
+        --
+        Quadruped
         --
         Open Source and cost effective
         --
