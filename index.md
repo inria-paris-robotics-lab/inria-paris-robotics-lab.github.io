@@ -1,2 +1,0 @@
-INRIA Paris Robotics Lab
-========================
