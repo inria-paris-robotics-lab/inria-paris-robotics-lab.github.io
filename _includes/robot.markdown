@@ -27,5 +27,17 @@
 
 {{ include.description }}
 
+| Publications |
+|--------------|
+{% nolinebreaks %}
+{% for item in site.data.publications %}
+{% if item.Robots contains include.shortname %}
+| **{{ item.Title }}**<br/>{{ item.Authors }}<br/>**{{ item.Publisher }}, {{ item.Year }}** |
+\break
+{% endif %}
+{% endfor %}
+{% endnolinebreaks %}
+
+
 {% for item in tag_list %}
 `{{ item }}`{% endfor %}

@@ -6,7 +6,7 @@ module Jekyll
       end
 
       def render(context)
-        super.gsub(/\s+/, " ")
+        super.gsub(/\s+/, " ").gsub("\\break", "\n")
       end
     end
   end
