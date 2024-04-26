@@ -1,76 +1,76 @@
-- Robot: "Solo"
+- Robots: ["Solo"]
   Title: "Proxddp: Proximal constrained trajectory optimization"
   Authors: "Wilson Jallet, Antoine Bambade, Etienne Arlaud, Sarah El-Kazdadi, Nicolas Mansard, Justin Carpentier"
   Publisher: "T-RO"
   Year: "2023"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "PolarNet: 3D Point Clouds for Language-Guided Robotic Manipulation"
   Authors: "Shizhe Chen, Ricardo Garcia, Ivan Laptev, Cordelia Schmid"
   Publisher: "CoRL"
   Year: "2023"
 
-- Robot: "Tiago"
+- Robots: ["Tiago"]
   Title: "Object Goal Navigation with Recursive Implicit Maps"
   Authors: "Shizhe Chen, Thomas Chabal, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2023"
 
-- Robot: "Solo"
+- Robots: ["Solo", "MoCap"]
   Title: "Risk-Sensitive Extended Kalman Filter"
   Authors: "Armand Jordana, Avadesh Meduri, Etienne Arlaud, Justin Carpentier, Ludovic Righetti"
   Publisher: "hal-04107207"
   Year: "2023"
 
-- Robot: "MoCap"
+- Robots: ["MoCap"]
   Title: "Dense Image Registration, Camera Pose and Depth Estimation from Bursts"
   Authors: "Bruno Lecouat, Yann Dubois de Mont-Marin, Théo Bodrito, Jean Ponce, Julien Mairal"
   Publisher: ""
   Year: "2023"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "Robust visual sim-to-real transfer for robotic manipulation"
   Authors: "Ricardo Garcia, Robin Strudel, Shizhe Chen, Etienne Arlaud, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2023"
 
-- Robot: "Upkie"
+- Robots: ["Upkie"]
   Title: "PROXQP: an Efficient and Versatile Quadratic Programming Solver for Real-Time Robotics Applications and Beyond"
   Authors: "Antoine Bambade, Fabian Schramm, Sarah El Kazdadi, Stéphane Caron, Adrien Taylor, Justin Carpentier"
   Publisher: "RSS"
   Year: "2022"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "Instruction-driven history-aware policies for robotic manipulations"
   Authors: "Pierre-Louis Guhur, Shizhe Chen, Ricardo Garcia, Makarand Tapaswi, Ivan Laptev, Cordelia Schmid"
   Publisher: "CoRL"
   Year: "2022"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "Assembly Planning from Observations under Physical Constraints"
   Authors: "Thomas Chabal, Robin Strudel, Etienne Arlaud, Jean Ponce, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2022"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "Monte-Carlo Tree Search for Efficient Visually Guided Rearrangement Planning"
   Authors: "Yann Labbé, Sergey Zagoruyko, Igor Kalevatykh, Ivan Laptev, Justin Carpentier, Mathieu Aubry, Josef Sivic"
   Publisher: "RAL"
   Year: "2020"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "Learning to combine primitive skills: A step towards versatile robotic manipulation"
   Authors: "Robin Strudel, Alexander Pashevich, Igor Kalevatykh, Ivan Laptev, Josef Sivic, Cordelia Schmid"
   Publisher: "ICRA"
   Year: "2020"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "Learning visual policies for building 3D shape categories"
   Authors: "Alexander Pashevich, Robin Strudel, Igor Kalevatykh, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2020"
 
-- Robot: "UR5"
+- Robots: ["UR5"]
   Title: "Learning to augment synthetic images for sim2real policy transfer"
   Authors: "Alexander Pashevich, Robin Strudel, Igor Kalevatykh, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"

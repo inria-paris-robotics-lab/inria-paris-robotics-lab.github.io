@@ -8,5 +8,9 @@ title: Publications
 
 | Robot | Publication |
 |-------|-------------|
-{% for item in site.data.publications %}| {{ item.Robot }} | **{{ item.Title }}**<br/>{{ item.Authors }}<br/>**{{ item.Publisher }}, {{ item.Year }}** |
+{% nolinebreaks %}
+{% for item in site.data.publications %}
+    | {% for robot in item.Robots %}{{ robot }}{% endfor %}
+    | **{{ item.Title }}**<br/>{{ item.Authors }}<br/>**{{ item.Publisher }}, {{ item.Year }}** |
+    {% endnolinebreaks %}
 {% endfor %}
