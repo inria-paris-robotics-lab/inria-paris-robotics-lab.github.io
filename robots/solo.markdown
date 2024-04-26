@@ -7,9 +7,9 @@ title: Solo
     shortname="Solo"
     fullname="ODRI Solo-12"
     description=""
-    image=""
-    tag_list="Locomotion,Estimation,Interaction"
-    overview="
+    image="imgs/solo.jpg"
+    tag_list="Locomotion,Control,Estimation"
+    overview_list="
         12 DoFs quadruped
         --
         Open Source and cost effective
@@ -18,7 +18,7 @@ title: Solo
         --
         Torque controlled with transparent actuators (low reduction ratios)
     "
-    usages="
+    usage_list="
         Model predictive control
         --
         Whole body control
