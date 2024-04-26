@@ -6,10 +6,24 @@ layout: default
 title: Publications
 ---
 
-| Robot | Publication |
-|-------|-------------|
-{% for item in site.data.publications %}{% nolinebreaks %}
-    | {% for robot in item.Robots %}{{ robot }} {% endfor %}
-    | **{{ item.Title }}**<br/>{{ item.Authors }}<br/>**{{ item.Publisher }}, {{ item.Year }}**|
-{% endnolinebreaks %}
+<table>
+<thead>
+    <tr>
+        <th>Robots</th>
+        <th>Publication</th>
+    </tr>
+</thead>
+<tbody>
+{% for item in site.data.publications %}
+    <tr>
+        <td> {% for robot in item.Robots %}{{ robot }} {% endfor %}</td>
+        <td> <strong>{{ item.Title }}</strong>
+             <br/>
+             {{ item.Authors }}
+             <br/>
+             <strong>{{ item.Publisher }}, {{ item.Year }}</strong>
+        </td>
+    </tr>
 {% endfor %}
+</tbody>
+</table>

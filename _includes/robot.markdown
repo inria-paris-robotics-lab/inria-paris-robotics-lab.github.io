@@ -27,16 +27,27 @@
 
 {{ include.description }}
 
-| Publications |
-|--------------|
-{% nolinebreaks %}
+<table>
+<thead>
+    <tr>
+        <th>Publications</th>
+    </tr>
+</thead>
+<tbody>
 {% for item in site.data.publications %}
-{% if item.Robots contains include.shortname %}
-| **{{ item.Title }}**<br/>{{ item.Authors }}<br/>**{{ item.Publisher }}, {{ item.Year }}** |
-\break
-{% endif %}
+    <tr>
+        {% if item.Robots contains include.shortname %}
+        <td> <strong>{{ item.Title }}</strong>
+             <br/>
+             {{ item.Authors }}
+             <br/>
+             <strong>{{ item.Publisher }}, {{ item.Year }}</strong>
+        </td>
+        {% endif %}
+    </tr>
 {% endfor %}
-{% endnolinebreaks %}
+</tbody>
+</table>
 
 
 {% for item in tag_list %}
