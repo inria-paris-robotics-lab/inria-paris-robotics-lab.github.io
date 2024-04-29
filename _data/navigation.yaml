@@ -3,15 +3,15 @@
 - title: "Publications"
   url: /publications.html
 - title: "Robots"
-  url: /robots/index.html
+  url: /Robots/index.html
   sublinks:
     - title: "Allegro"
-      url: "robots/Allegro.html"
+      url: "Robots/Allegro.html"
     - title: "Tiago"
-      url: "robots/Tiago.html"
+      url: "Robots/Tiago.html"
     - title: "UR5"
-      url: "robots/UR5.html"
+      url: "Robots/UR5.html"
     - title: "Solo"
-      url: "robots/Solo.html"
+      url: "Robots/Solo.html"
     - title: "MoCap"
-      url: "robots/MoCap.html"
+      url: "Robots/MoCap.html"
