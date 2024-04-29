@@ -1,0 +1,17 @@
+- title: "Home"
+  url: /publications.html
+- title: "Publications"
+  url: /publications.html
+- title: "Robots"
+  url: /robots/index.html
+  sublinks:
+    - title: "Allegro"
+      url: "robots/Allegro.html"
+    - title: "Tiago"
+      url: "robots/Tiago.html"
+    - title: "UR5"
+      url: "robots/UR5.html"
+    - title: "Solo"
+      url: "robots/Solo.html"
+    - title: "MoCap"
+      url: "robots/MoCap.html"

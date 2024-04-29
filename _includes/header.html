@@ -17,15 +17,63 @@
         </span>
       </label>
 
+      <!-- Nav bar with sublinks -->
+
       <div class="trigger">
-        {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        {%- endif -%}
+        {%- for link in site.data.navigation -%}
+        <div class="masthead__menu-item">
+          <a class="page-link" href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }} "{% endif %}>{{ link.title }}</a>
+          {% if link.sublinks %}
+          <ul class="sublinks">
+            {% for sublink in link.sublinks %}
+            <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
         {%- endfor -%}
       </div>
     </nav>
     {%- endif -%}
-  </div>
+
+    <style>
+      .masthead__menu-item {
+        position: relative;
+        margin-left: 5%;
+      }
+
+      .trigger {
+        display:flex;
+        size: auto;
+      }
+      .sublinks {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        list-style-type: none;
+        margin-left: 0px;
+      }
+
+      .masthead__menu-item:hover .sublinks {
+        display: block;
+      }
+
+      .sublinks a {
+        color: black;
+        padding: 12px;
+        padding-left: 24px;
+        padding-right: 64px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .sublinks a:hover {
+        background-color: #f1f1f1;
+      }
+    </style>
+
+  </nav>
+</div>
 </header>
