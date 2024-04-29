@@ -26,7 +26,7 @@
           {% if link.sublinks %}
           <ul class="sublinks">
             {% for sublink in link.sublinks %}
-            <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
+            <li><a class="page-link" href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
             {% endfor %}
           </ul>
           {% endif %}

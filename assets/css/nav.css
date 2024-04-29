@@ -1,6 +1,3 @@
----
----
-@import "{{ site.theme }}";
 
 .nav-top-item {
   position: relative;
@@ -12,7 +9,20 @@
   size: auto;
 }
 
-/* @media screen and (min-width: $on-medium) { */
+.sublinks {
+  list-style-type: none;
+  background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 600px) {
+  .sublinks a.page-link {
+    margin-right: 16px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 600px) {
   .sublinks {
     display: none;
     position: absolute;
@@ -22,22 +32,18 @@
     list-style-type: none;
     margin-left: 0px;
   }
-/* } */
 
-.nav-top-item:hover .sublinks {
-  display: block;
+  .nav-top-item:hover .sublinks {
+    display: block;
+  }
+
+  .sublinks a {
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 64px;
+  }
+
+  .sublinks a:hover {
+    background-color: #f1f1f1;
+  }
 }
-
-.sublinks a {
-  color: black;
-  padding: 12px;
-  padding-left: 24px;
-  padding-right: 64px;
-  text-decoration: none;
-  display: block;
-}
-
-.sublinks a:hover {
-  background-color: #f1f1f1;
-}
-
