@@ -18,10 +18,10 @@
       </label>
 
       <!-- Nav bar with sublinks -->
-
+      <link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}">
       <div class="trigger">
         {%- for link in site.data.navigation -%}
-        <div class="masthead__menu-item">
+        <div class="nav-top-item">
           <a class="page-link" href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }} "{% endif %}>{{ link.title }}</a>
           {% if link.sublinks %}
           <ul class="sublinks">
@@ -35,44 +35,6 @@
       </div>
     </nav>
     {%- endif -%}
-
-    <style>
-      .masthead__menu-item {
-        position: relative;
-        margin-left: 5%;
-      }
-
-      .trigger {
-        display:flex;
-        size: auto;
-      }
-      .sublinks {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        list-style-type: none;
-        margin-left: 0px;
-      }
-
-      .masthead__menu-item:hover .sublinks {
-        display: block;
-      }
-
-      .sublinks a {
-        color: black;
-        padding: 12px;
-        padding-left: 24px;
-        padding-right: 64px;
-        text-decoration: none;
-        display: block;
-      }
-
-      .sublinks a:hover {
-        background-color: #f1f1f1;
-      }
-    </style>
 
   </nav>
 </div>
