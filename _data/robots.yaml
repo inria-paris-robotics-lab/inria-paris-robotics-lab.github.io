@@ -1,3 +1,23 @@
+UR5:
+  fullname: "UR5 bi-manual setup"
+  description: ""
+  image: "/assets/imgs/UR5.jpg"
+  image_transparent: "/assets/imgs/UR5_transparent.png"
+  tag_list: "Manipulation,Computer Vision,Machine Learning"
+  overview_list: "
+      Precise position and velocity control
+      --
+      Interchangeable grippers (parallel, tri-fingers, Allegro hand, ...)
+      --
+      Embedded cameras and force-torque sensors on each wrist
+      --
+      Rigid workbench and well modeled environment
+      --
+      Highly customizable through large variety anchor points (for external cameras, objects, ...)
+  "
+  usage_list: "
+      Policy learning in controlled environments
+  "
 Allegro:
   fullname: "Allegro Hand"
   description: ""
@@ -14,27 +34,33 @@ Allegro:
   usage_list: "
       Dexterous Manipulation
   "
-MoCap:
-  fullname: "Motion Capture System"
+Upkie:
+  fullname: "Upkie"
   description: ""
-  image: "/assets/imgs/MoCap.png"
-  image_transparent: "/assets/imgs/MoCap_transparent.png"
-  tag_list: ""
+  image: "/assets/imgs/Upkie.jpg"
+  image_transparent: "/assets/imgs/Upkie_transparent.png"
+  tag_list: "Control,Estimation,Balancing"
   overview_list: "
-      Track single points or rigid object
+      Wheeled biped
       --
-      < 1 mm accuracy
+      6 DoFs (2 hips, 2 knees, 2 wheels)
       --
-      > 300 Hz
+      Open source and cost effective
       --
-      Covers a large part of the robotics room
+      Developed (and built) in-house
+      --
+      Torque controlled with transparent actuators (low reduction ratios)
+      --
+      Embed power supply (long autonomy)
+      --
+      Embed its own computing power
   "
   usage_list: "
-      Ground truth
+      Policy learning
       --
-      Calibration
+      Whole body control
       --
-      Dataset collection
+      State estimation
   "
 Solo:
   fullname: "ODRI Solo-12"
@@ -84,51 +110,25 @@ Tiago:
       --
       Task planning
   "
-Upkie:
-  fullname: "Upkie"
+MoCap:
+  fullname: "Motion Capture System"
   description: ""
-  image: "/assets/imgs/Upkie.jpg"
-  image_transparent: "/assets/imgs/Upkie_transparent.png"
-  tag_list: "Control,Estimation,Balancing"
+  image: "/assets/imgs/MoCap.png"
+  image_transparent: "/assets/imgs/MoCap_transparent.png"
+  tag_list: ""
   overview_list: "
-      Wheeled biped
+      Track single points or rigid object
       --
-      6 DoFs (2 hips, 2 knees, 2 wheels)
+      < 1 mm accuracy
       --
-      Open source and cost effective
+      > 300 Hz
       --
-      Developed (and built) in-house
-      --
-      Torque controlled with transparent actuators (low reduction ratios)
-      --
-      Embed power supply (long autonomy)
-      --
-      Embed its own computing power
+      Covers a large part of the robotics room
   "
   usage_list: "
-      Policy learning
+      Ground truth
       --
-      Whole body control
+      Calibration
       --
-      State estimation
-  "
-UR5:
-  fullname: "UR5 bi-manual setup"
-  description: ""
-  image: "/assets/imgs/UR5.jpg"
-  image_transparent: "/assets/imgs/UR5_transparent.png"
-  tag_list: "Manipulation,Computer Vision,Machine Learning"
-  overview_list: "
-      Precise position and velocity control
-      --
-      Interchangeable grippers (parallel, tri-fingers, Allegro hand, ...)
-      --
-      Embedded cameras and force-torque sensors on each wrist
-      --
-      Rigid workbench and well modeled environment
-      --
-      Highly customizable through large variety anchor points (for external cameras, objects, ...)
-  "
-  usage_list: "
-      Policy learning in controlled environments
+      Dataset collection
   "
