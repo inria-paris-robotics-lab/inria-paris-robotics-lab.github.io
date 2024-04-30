@@ -7,7 +7,7 @@ title: Allegro
     shortname="Allegro"
     fullname="Allegro Hand"
     description=""
-    image="imgs/Allegro.jpg"
+    image="/assets/imgs/Allegro.jpg"
     tag_list="Dexterous Manipulation"
     overview_list="
         16 DoFs

@@ -7,7 +7,7 @@ title: UR5
     shortname="UR5"
     fullname="UR5 bi-manual setup"
     description=""
-    image="imgs/UR5.jpg"
+    image="/assets/imgs/UR5.jpg"
     tag_list="Manipulation,Computer Vision,Machine Learning"
     overview_list="
         Precise position and velocity control

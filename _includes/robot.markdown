@@ -4,10 +4,11 @@
 {% assign tag_list = include.tag_list | split: ',' %}
 {% assign overview_list = include.overview_list | split: '--' %}
 {% assign usage_list = include.usage_list | split: '--' %}
+{% assign img_url = include.image | relative_url %}
 
 <div style="display: flex; flex-wrap: wrap; gap: 5%; margin-top: 5%; margin-bottom: 5%">
     <div style="flex: 1 1 300px; align-self: center">
-        <img src="{{ include.image }}" alt="{{ include.image }}" style="object-fit: contain;">
+        <img src="{{ img_url }}" alt="{{ img_url }}" style="object-fit: contain;">
     </div>
     <div style="flex: 1 1 300px; align-self: center">
         <h3>Overview:</h3>

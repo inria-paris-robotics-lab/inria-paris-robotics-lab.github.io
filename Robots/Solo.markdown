@@ -7,7 +7,7 @@ title: Solo
     shortname="Solo"
     fullname="ODRI Solo-12"
     description=""
-    image="imgs/Solo.jpg"
+    image="/assets/imgs/Solo.jpg"
     tag_list="Locomotion,Control,Estimation"
     overview_list="
         12 DoFs

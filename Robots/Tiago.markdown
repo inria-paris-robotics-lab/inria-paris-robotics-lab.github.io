@@ -7,7 +7,7 @@ title: Tiago
     shortname="Tiago"
     fullname="Tiago++"
     description=""
-    image="imgs/Tiago.png"
+    image="/assets/imgs/Tiago.png"
     tag_list="SLAM,Localization,Mapping,Planning"
     overview_list="
         Wheeled, humanoid-like, with extensible torso and orientable head

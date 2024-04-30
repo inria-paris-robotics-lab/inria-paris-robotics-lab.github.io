@@ -7,7 +7,7 @@ title: Upkie
     shortname="Upkie"
     fullname="Upkie"
     description=""
-    image="imgs/Upkie.jpg"
+    image="/assets/imgs/Upkie.jpg"
     tag_list="Control,Estimation,Balancing"
     overview_list="
         Wheeled biped

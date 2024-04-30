@@ -7,7 +7,7 @@ title: MoCap
     shortname="MoCap"
     fullname="Motion Capture System"
     description=""
-    image="imgs/MoCap.png"
+    image="/assets/imgs/MoCap.png"
     tag_list=""
     overview_list="
         Track single points or rigid object
