@@ -16,7 +16,12 @@ title: Publications
 <tbody>
 {% for item in site.data.publications %}
     <tr>
-        <td> {% for robot in item.Robots %}{{ robot }} {% endfor %}</td>
+        <td>
+        {% for robot in item.Robots %}
+            {% assign robot_url = 'Robots/' | append: robot | append: '.html' | relative_url %}
+            <a class="page-link" href="{{ robot_url }}">{{ robot }}</a>
+        {% endfor %}
+        </td>
         <td> <strong>{{ item.Title }}</strong>
              <br/>
              {{ item.Authors }}
