@@ -1,10 +1,13 @@
-# {{ include.fullname }}
-
 <!-- Parse the inputs -->
-{% assign tag_list = include.tag_list | split: ',' %}
-{% assign overview_list = include.overview_list | split: '--' %}
-{% assign usage_list = include.usage_list | split: '--' %}
-{% assign img_url = include.image | relative_url %}
+{% assign robot_info = site.data.robots[include.robot] %}
+
+<!-- Parse robot infos -->
+{% assign tag_list = robot_info.tag_list | split: ',' %}
+{% assign overview_list = robot_info.overview_list | split: '--' %}
+{% assign usage_list = robot_info.usage_list | split: '--' %}
+{% assign img_url = robot_info.image | relative_url %}
+
+# {{ robot_info.fullname }}
 
 <div style="display: flex; flex-wrap: wrap; gap: 5%; margin-top: 5%; margin-bottom: 5%">
     <div style="flex: 1 1 300px; align-self: center">
@@ -26,7 +29,7 @@
     </div>
 </div>
 
-{{ include.description }}
+{{ robot_info.description }}
 
 <table>
 <thead>
@@ -37,7 +40,7 @@
 <tbody>
 {% for item in site.data.publications %}
     <tr>
-        {% if item.Robots contains include.shortname %}
+        {% if item.Robots contains include.robot %}
         <td> <strong>{{ item.Title }}</strong>
              <br/>
              {{ item.Authors }}

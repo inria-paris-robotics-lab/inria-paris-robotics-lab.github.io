@@ -1,0 +1,128 @@
+Allegro:
+  fullname: "Allegro Hand"
+  description: ""
+  image: "/assets/imgs/Allegro.jpg"
+  tag_list: "Dexterous Manipulation"
+  overview_list: "
+      16 DoFs
+      --
+      Torque controlled
+      --
+      Can be mounted in the UR5 bi-manual setup
+  "
+  usage_list: "
+      Dexterous Manipulation
+  "
+MoCap:
+    fullname: "Motion Capture System"
+    description: ""
+    image: "/assets/imgs/MoCap.png"
+    tag_list: ""
+    overview_list: "
+        Track single points or rigid object
+        --
+        < 1 mm accuracy
+        --
+        > 300 Hz
+        --
+        Covers a large part of the robotics room
+    "
+    usage_list: "
+        Ground truth
+        --
+        Calibration
+        --
+        Dataset collection
+    "
+Solo:
+    fullname: "ODRI Solo-12"
+    description: ""
+    image: "/assets/imgs/Solo.jpg"
+    tag_list: "Locomotion,Control,Estimation"
+    overview_list: "
+        12 DoFs
+        --
+        Quadruped
+        --
+        Open Source and cost effective
+        --
+        Lightweight and highly dynamic
+        --
+        Torque controlled with transparent actuators (low reduction ratios)
+    "
+    usage_list: "
+        Model predictive control
+        --
+        Whole body control
+        --
+        Contact interaction
+        --
+        State estimation
+    "
+Tiago:
+    fullname: "Tiago++"
+    description: ""
+    image: "/assets/imgs/Tiago.png"
+    tag_list: "SLAM,Localization,Mapping,Planning"
+    overview_list: "
+        Wheeled, humanoid-like, with extensible torso and orientable head
+        --
+        Bi-manual
+        --
+        Variety of embedded sensors : RGB-D cameras, LiDARs, sonars
+        --
+        Embed power supply (long battery life)
+        --
+        Embed its own computing power
+    "
+    usage_list: "
+        Simultaneous Location and Mapping (SLAM)
+        --
+        Task planning
+    "
+Upkie:
+    fullname: "Upkie"
+    description: ""
+    image: "/assets/imgs/Upkie.jpg"
+    tag_list: "Control,Estimation,Balancing"
+    overview_list: "
+        Wheeled biped
+        --
+        6 DoFs (2 hips, 2 knees, 2 wheels)
+        --
+        Open source and cost effective
+        --
+        Developed (and built) in-house
+        --
+        Torque controlled with transparent actuators (low reduction ratios)
+        --
+        Embed power supply (long autonomy)
+        --
+        Embed its own computing power
+    "
+    usage_list: "
+        Policy learning
+        --
+        Whole body control
+        --
+        State estimation
+    "
+UR5:
+    fullname: "UR5 bi-manual setup"
+    description: ""
+    image: "/assets/imgs/UR5.jpg"
+    tag_list: "Manipulation,Computer Vision,Machine Learning"
+    overview_list: "
+        Precise position and velocity control
+        --
+        Interchangeable grippers (parallel, tri-fingers, Allegro hand, ...)
+        --
+        Embedded cameras and force-torque sensors on each wrist
+        --
+        Rigid workbench and well modeled environment
+        --
+        Highly customizable through large variety anchor points (for external cameras, objects, ...)
+    "
+    usage_list: "
+        Policy learning in controlled environments
+    "
