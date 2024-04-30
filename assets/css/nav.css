@@ -43,7 +43,7 @@
     padding-right: 64px;
   }
 
-  .sublinks a:hover {
+  .sublinks li:hover {
     background-color: #f1f1f1;
   }
 }
