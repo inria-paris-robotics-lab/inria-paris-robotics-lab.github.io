@@ -15,7 +15,7 @@ title: Robots
     <div class="robot-description">
         <h2>{{ robot_info.fullname }}</h2>
 
-        <div style="position:absolute;bottom:0px;width:100%;">
+        <div class="tag-list">
             {% assign tag_list = robot_info.tag_list | split: ',' %}
             {% for tag in tag_list %} <code>{{ tag }}</code> {% endfor %}
         </div>
@@ -50,5 +50,18 @@ title: Robots
     .robot-img {
         opacity:75%;
     }
+}
+
+.tag-list {
+    text-align: center;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+  }
+
+.tag-list code {
+    white-space: nowrap;
+    overflow: auto;
+    display: inline-block;
 }
 </style>
