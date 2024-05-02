@@ -39,16 +39,16 @@
 </thead>
 <tbody>
 {% for item in site.data.publications %}
-    <tr>
-        {% if item.Robots contains include.robot %}
-        <td> <strong>{{ item.Title }}</strong>
-             <br/>
-             {{ item.Authors }}
-             <br/>
-             <strong>{{ item.Publisher }}, {{ item.Year }}</strong>
-        </td>
-        {% endif %}
-    </tr>
+    {% if item.Robots contains include.robot %}
+        <tr>
+            <td> <strong>{{ item.Title }}</strong>
+                <br/>
+                {{ item.Authors }}
+                <br/>
+                <strong>{{ item.Publisher }}, {{ item.Year }}</strong>
+            </td>
+        </tr>
+    {% endif %}
 {% endfor %}
 </tbody>
 </table>
