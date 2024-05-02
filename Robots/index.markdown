@@ -8,11 +8,11 @@ title: Robots
 {% for robot in site.data.robots %}
 {% assign robot_name = robot[0] %}
 {% assign robot_info = robot[1] %}
-<div style="display:flex;margin:5%;border:solid black 1px;cursor: pointer;" onclick="location.href='/Robots/{{ robot_name }}.html';">
-    <div style="width:50%;text-align: center;">
+<div class="robot-card" onclick="location.href='/Robots/{{ robot_name }}.html';">
+    <div class="robot-img">
         <img src="{{robot_info.image_transparent}}" height="200px"/>
     </div>
-    <div style="position:relative;width:50%">
+    <div class="robot-description">
         <h2>{{ robot_info.fullname }}</h2>
 
         <div style="position:absolute;bottom:0px;width:100%;">
@@ -22,3 +22,33 @@ title: Robots
     </div>
 </div>
 {% endfor %}
+
+<style>
+.robot-card {
+    display:flex;
+    margin:5%;
+    border:solid black 1px;
+    cursor: pointer;
+}
+
+.robot-img {
+    width:50%;
+    text-align: center;
+}
+
+.robot-description {
+    position:relative;
+    width:50%;
+
+}
+
+.robot-card:hover {
+    opacity: 75%;
+
+    /* Extra transparency for some elements */
+    border: 1px solid rgba(0, 0, 0, .75);
+    .robot-img {
+        opacity:75%;
+    }
+}
+</style>
