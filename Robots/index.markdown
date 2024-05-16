@@ -35,6 +35,7 @@ title: Robots
 
 .robot-img {
     width:50%;
+    height:auto;
     text-align: center;
 }
 
@@ -65,5 +66,21 @@ title: Robots
     white-space: nowrap;
     overflow: auto;
     display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .robot-card {
+        flex-direction: column;
+        div {
+            width: 90%;
+            margin:auto;
+        }
+    }
+    .robot-description {
+        text-align: center;
+    }
+    .tag-list {
+        position:relative;
+    }
 }
 </style>
