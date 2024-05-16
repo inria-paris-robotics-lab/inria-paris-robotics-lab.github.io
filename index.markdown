@@ -9,7 +9,7 @@ Welcome to the Inria Paris Robotics Lab! Our platform hosts a diverse range of [
 
 Our research spans across a wide range of fields from "classical robotics", with trajectory optimization, model predictive control, state estimation,... to computer vision or deep and reinforcement learning for end-to-end methods.
 
-![robotics room]({{ '/assets/imgs/RoboticsRoom.jpg' | absolute_url }})
+<img style="border-radius:10px;" src="{{ '/assets/imgs/RoboticsRoom.jpg' | absolute_url }}" alt="robotics room">
 
 <table>
 <thead>
