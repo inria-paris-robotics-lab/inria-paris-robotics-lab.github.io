@@ -27,7 +27,9 @@ title: Robots
 .robot-card {
     display:flex;
     margin:5%;
-    border:solid black 1px;
+    border:solid rgba(0, 0, 0, 0) 1px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     cursor: pointer;
 }
 
