@@ -1,4 +1,10 @@
 - Robots: ["Solo"]
+  Title: "Parallel and Proximal Linear-Quadratic Methods for Real-Time Constrained Model-Predictive Control"
+  Authors: "Wilson Jallet, Ewen Dantec, Etienne Arlaud, Justin Carpentier, Nicolas Mansard"
+  Publisher: "RSS"
+  Year: "2024"
+
+- Robots: ["Solo"]
   Title: "Proxddp: Proximal constrained trajectory optimization"
   Authors: "Wilson Jallet, Antoine Bambade, Etienne Arlaud, Sarah El-Kazdadi, Nicolas Mansard, Justin Carpentier"
   Publisher: "T-RO"
