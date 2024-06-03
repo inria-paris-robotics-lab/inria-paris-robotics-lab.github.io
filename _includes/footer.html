@@ -2,19 +2,28 @@
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
     <div class="wrapper">
-
-      <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
-
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-            <p>{{- site.description | escape -}}</p>
-        </div>
-
-        <div class="footer-col footer-col-3">
-            {%- include social.html -%}
-        </div>
+      <div style="display:flex;width:100%">
+        <img class = "logo" src="{{ 'assets/imgs/logo_inria.svg' | relative_url}}"  />
+        <img class = "logo" src="{{ 'assets/imgs/logo_ens.png' | relative_url}}"    />
+        <img class = "logo" src="{{ 'assets/imgs/logo_prairie.png' | relative_url}}"/>
+        <img class = "logo" src="{{ 'assets/imgs/logo_ai4idf.png' | relative_url}}" />
       </div>
 
-    </div>
+      {%- include social.html -%}
 
-  </footer>
+    </div>
+</footer>
+
+<style>
+footer img.logo {
+  max-height: 45px;
+  margin:auto;
+  flex-shrink: 1;
+  min-width: 0px;
+}
+
+.social-media-list {
+  text-align: center;
+  margin-top: 30px;
+}
+</style>
