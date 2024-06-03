@@ -26,7 +26,7 @@ title: Publications
              <br/>
              {{ item.Authors }}
              <br/>
-             <strong>{{ item.Publisher }}, {{ item.Year }}</strong>
+             <em>{{ item.Publisher }}, {{ item.Year }}</em>
         </td>
     </tr>
 {% endfor %}

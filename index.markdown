@@ -30,7 +30,7 @@ Our research spans across a wide range of fields from "classical robotics", with
             <br/>
             {{ item.Authors }}
             <br/>
-            <strong>{{ item.Publisher }}, {{ item.Year }}</strong>
+            <em>{{ item.Publisher }}, {{ item.Year }}</em>
         </td>
     </tr>
 {% endfor %}
