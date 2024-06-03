@@ -132,8 +132,8 @@ MoCap:
       --
       Dataset collection
   "
-GO2:
-  fullname: "Unitree GO 2"
+Go2:
+  fullname: "Unitree Go 2"
   description: ""
   image: "/assets/imgs/Unitree_Go_2.webp"
   image_transparent: "/assets/imgs/Unitree_Go_2.webp"
