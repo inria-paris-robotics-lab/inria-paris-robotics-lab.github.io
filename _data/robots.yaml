@@ -43,17 +43,17 @@ Upkie:
   overview_list: "
       Wheeled biped
       --
-      6 DoFs (2 hips, 2 knees, 2 wheels)
+      6 DoFs: 2 hips, 2 knees, 2 wheels
       --
       Open source and cost effective
       --
-      Developed (and built) in-house
+      Developed and built in-house
       --
       Torque controlled with transparent actuators (low reduction ratios)
       --
-      Embed power supply (long autonomy)
+      Onboard battery (long autonomy)
       --
-      Embed its own computing power
+      Onboard computer (Raspberry Pi)
   "
   usage_list: "
       Policy learning
@@ -101,9 +101,9 @@ Tiago:
       --
       Variety of embedded sensors : RGB-D cameras, LiDARs, sonars
       --
-      Embed power supply (long battery life)
+      Embedded power supply (long battery life)
       --
-      Embed its own computing power
+      Embedded computing power
   "
   usage_list: "
       Simultaneous Location and Mapping (SLAM)
