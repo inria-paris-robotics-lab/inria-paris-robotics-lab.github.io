@@ -18,21 +18,25 @@ UR5:
   usage_list: "
       Policy learning in controlled environments
   "
-Allegro:
-  fullname: "Allegro Hand"
+Shadow:
+  fullname: "Shadow Hand"
   description: ""
-  image: "/assets/imgs/Allegro.jpg"
-  image_transparent: "/assets/imgs/Allegro_transparent.png"
-  tag_list: "Dexterous Manipulation"
+  image: "/assets/imgs/Shadow.jpg"
+  image_transparent: "/assets/imgs/Shadow_transparent.png"
+  tag_list: "Dexterous Manipulation,Tactile sensing,Contact Interaction"
   overview_list: "
-      16 DoFs
+      20 DoFs + 4 passive DoFs
       --
-      Torque controlled
+      Tactile fingertips (17 3D-taxels per finger)
       --
-      Can be mounted in the UR5 bi-manual setup
+      Torque controlled (tendon actuated)
+      --
+      Mounted on UR10e arm
   "
   usage_list: "
       Dexterous Manipulation
+      --
+      Contact interaction
   "
 Upkie:
   fullname: "Upkie"
@@ -62,22 +66,24 @@ Upkie:
       --
       State estimation
   "
-Solo:
-  fullname: "ODRI Solo-12"
+Go2:
+  fullname: "Unitree Go 2"
   description: ""
-  image: "/assets/imgs/Solo.jpg"
-  image_transparent: "/assets/imgs/Solo_transparent.png"
+  image: "/assets/imgs/Unitree_Go_2.webp"
+  image_transparent: "/assets/imgs/Unitree_Go_2.webp"
   tag_list: "Locomotion,Control,Estimation"
   overview_list: "
-      12 DoFs
+      12 DoFs Quadruped
       --
-      Quadruped
-      --
-      Open Source and cost effective
-      --
-      Lightweight and highly dynamic
+      8 Kg of payload
       --
       Torque controlled with transparent actuators (low reduction ratios)
+      --
+      Embedded sensors : 2x 3D Lidars, foot-end force sensors, RGB camera
+      --
+      Embedded computational power : 8-core CPU + NVIDIA Jetson Orin
+      --
+      Swappable battery with long autonomy.
   "
   usage_list: "
       Model predictive control
@@ -132,24 +138,22 @@ MoCap:
       --
       Dataset collection
   "
-Go2:
-  fullname: "Unitree Go 2"
+Solo:
+  fullname: "ODRI Solo-12"
   description: ""
-  image: "/assets/imgs/Unitree_Go_2.webp"
-  image_transparent: "/assets/imgs/Unitree_Go_2.webp"
+  image: "/assets/imgs/Solo.jpg"
+  image_transparent: "/assets/imgs/Solo_transparent.png"
   tag_list: "Locomotion,Control,Estimation"
   overview_list: "
-      12 DoFs Quadruped
+      12 DoFs
       --
-      8 Kg of payload
+      Quadruped
+      --
+      Open Source and cost effective
+      --
+      Lightweight and highly dynamic
       --
       Torque controlled with transparent actuators (low reduction ratios)
-      --
-      Embedded sensors : 2x 3D Lidars, foot-end force sensors, RGB camera
-      --
-      Embedded computational power : 8-core CPU + NVIDIA Jetson Orin
-      --
-      Swappable battery with long autonomy.
   "
   usage_list: "
       Model predictive control
@@ -159,4 +163,20 @@ Go2:
       Contact interaction
       --
       State estimation
+  "
+Allegro:
+  fullname: "Allegro Hand"
+  description: ""
+  image: "/assets/imgs/Allegro.jpg"
+  image_transparent: "/assets/imgs/Allegro_transparent.png"
+  tag_list: "Dexterous Manipulation"
+  overview_list: "
+      16 DoFs
+      --
+      Torque controlled
+      --
+      Can be mounted in the UR5 bi-manual setup
+  "
+  usage_list: "
+      Dexterous Manipulation
   "
