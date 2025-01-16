@@ -1,5 +1,23 @@
+- Robots: ["Allegro", "UR5"]
+  Title: "ViViDex: Learning Vision-based Dexterous Manipulation from Human Videos"
+  Authors: "Zerui Chen, Shizhe Chen, Etienne Arlaud, Ivan Laptev, Cordelia Schmid"
+  Publisher: ""
+  Year: "2024"
+
+- Robots: ["UR5"]
+  Title: "Towards Generalizable Vision-Language Robotic Manipulation: A Benchmark and LLM-guided 3D Policy"
+  Authors: "Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
+  Publisher: ""
+  Year: "2024"
+
+- Robots: ["Upkie"]
+  Title: "A Data-driven Contact Estimation Method for Wheeled-Biped Robots"
+  Authors: "Ü. Bora Gökbakan, Frederike Dümbgen, Stéphane Caron"
+  Publisher: ""
+  Year: "2024"
+
 - Robots: ["Solo"]
-  Title: "Parallel and Proximal Linear-Quadratic Methods for Real-Time Constrained Model-Predictive Control"
+  Title: "Parallel and Proximal Constrained Linear-Quadratic Methods for Real-Time Nonlinear MPC"
   Authors: "Wilson Jallet, Ewen Dantec, Etienne Arlaud, Justin Carpentier, Nicolas Mansard"
   Publisher: "RSS"
   Year: "2024"
