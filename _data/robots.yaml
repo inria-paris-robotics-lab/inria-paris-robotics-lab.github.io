@@ -1,6 +1,7 @@
 UR5:
   fullname: "UR5 bi-manual setup"
   description: ""
+  status: "Current"
   image: "/assets/imgs/UR5.jpg"
   image_transparent: "/assets/imgs/UR5_transparent.png"
   tag_list: "Manipulation,Computer Vision,Machine Learning"
@@ -18,9 +19,11 @@ UR5:
   usage_list: "
       Policy learning in controlled environments
   "
+
 Shadow:
   fullname: "Shadow Hand"
   description: ""
+  status: "Current"
   image: "/assets/imgs/Shadow.jpg"
   image_transparent: "/assets/imgs/Shadow_transparent.png"
   tag_list: "Dexterous Manipulation,Tactile sensing,Contact Interaction"
@@ -38,9 +41,11 @@ Shadow:
       --
       Contact interaction
   "
+
 Upkie:
   fullname: "Upkie"
   description: ""
+  status: "Current"
   image: "/assets/imgs/Upkie.jpg"
   image_transparent: "/assets/imgs/Upkie_transparent.png"
   tag_list: "Control,Estimation,Balancing"
@@ -66,9 +71,11 @@ Upkie:
       --
       State estimation
   "
+
 Go2:
   fullname: "Unitree Go 2"
   description: ""
+  status: "Current"
   image: "/assets/imgs/Unitree_Go_2.webp"
   image_transparent: "/assets/imgs/Unitree_Go_2.webp"
   tag_list: "Locomotion,Control,Estimation"
@@ -97,6 +104,7 @@ Go2:
 Tiago:
   fullname: "Tiago++"
   description: ""
+  status: "Retired"
   image: "/assets/imgs/Tiago.png"
   image_transparent: "/assets/imgs/Tiago_transparent.png"
   tag_list: "SLAM,Localization,Mapping,Planning"
@@ -116,9 +124,11 @@ Tiago:
       --
       Task planning
   "
+
 MoCap:
   fullname: "Motion Capture System"
   description: ""
+  status: "Current"
   image: "/assets/imgs/MoCap.png"
   image_transparent: "/assets/imgs/MoCap_transparent.png"
   tag_list: ""
@@ -138,9 +148,11 @@ MoCap:
       --
       Dataset collection
   "
+
 Solo:
   fullname: "ODRI Solo-12"
   description: ""
+  status: "Retired"
   image: "/assets/imgs/Solo.jpg"
   image_transparent: "/assets/imgs/Solo_transparent.png"
   tag_list: "Locomotion,Control,Estimation"
@@ -164,9 +176,11 @@ Solo:
       --
       State estimation
   "
+
 Allegro:
   fullname: "Allegro Hand"
   description: ""
+  status: "Current"
   image: "/assets/imgs/Allegro.jpg"
   image_transparent: "/assets/imgs/Allegro_transparent.png"
   tag_list: "Dexterous Manipulation"

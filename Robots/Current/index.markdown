@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Robots
+title: Robots currently in use
 ---
 
-# Our robots
+# Robots currently in use
 
 {% for robot in site.data.robots %}
+{% if robot[1].status == "Current" %}
 {% assign robot_name = robot[0] %}
 {% assign robot_info = robot[1] %}
-<div class="robot-card" onclick="location.href='/Robots/{{ robot_info.status }}/{{ robot_name }}.html';">
+<div class="robot-card" onclick="location.href='/Robots/Current/{{ robot_name }}.html';">
     <div class="robot-img">
         <img src="{{robot_info.image_transparent}}" height="200px"/>
     </div>
@@ -21,6 +22,8 @@ title: Robots
         </div>
     </div>
 </div>
+{% else %}
+{% endif %}
 {% endfor %}
 
 <style>
