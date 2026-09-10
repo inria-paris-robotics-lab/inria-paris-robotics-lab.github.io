@@ -26,6 +26,10 @@
             <li>{{ item }}</li>
             {% endfor %}
         </ul>
+
+        <h3>Current status: <b>{{robot_info.status}}</b> </h3>
+        
+
     </div>
 </div>
 

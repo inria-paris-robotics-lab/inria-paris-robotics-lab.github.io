@@ -1,3 +1,27 @@
+- Robots: ["Upkie"]
+  Title: "Collision avoidance from monocular vision trained with novel view synthesis"
+  Authors: " Valentin Tordjman--Levavasseur, Stéphane Caron"
+  Publisher: "IROS"
+  Year: "2026"
+
+- Robots: ["Go2"]
+  Title: "Reference-Free Sampling-Based Model Predictive Control"
+  Authors: " Fabian Schramm, Pierre Fabre, Nicolas Perrin-Gilbert, Justin Carpentier"
+  Publisher: "ICRA"
+  Year: "2026"
+
+- Robots: ["Franka"]
+  Title: "Frictional Contact-Implicit Inverse Dynamics via Complementarity-Constrained Optimization"
+  Authors: " Pierre Fabre, Etienne Ménager, Antoine Bambade, Wilson Jallet, Alberto de Marchi, Justin Carpentier"
+  Publisher: "ICRA"
+  Year: "2026"
+
+- Robots: ["UR5"]
+  Title: "Guardian: Detecting Robotic Planning and Execution Errors with Vision-Language Models"
+  Authors: " Paul Pacaud, Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
+  Publisher: ""
+  Year: "2025"
+  
 - Robots: ["Allegro", "UR5"]
   Title: "ViViDex: Learning Vision-based Dexterous Manipulation from Human Videos"
   Authors: "Zerui Chen, Shizhe Chen, Etienne Arlaud, Ivan Laptev, Cordelia Schmid"
@@ -34,7 +58,7 @@
   Publisher: "CoRL"
   Year: "2023"
 
-- Robots: ["Tiago"]
+- Robots: ["Tiago++"]
   Title: "Object Goal Navigation with Recursive Implicit Maps"
   Authors: "Shizhe Chen, Thomas Chabal, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"

@@ -1,11 +1,18 @@
 UR5:
-  fullname: "UR5 bi-manual setup"
+  fullname: "UR5 Mantis bi-manual setup"
   description: ""
-  image: "/assets/imgs/UR5.jpg"
-  image_transparent: "/assets/imgs/UR5_transparent.png"
-  tag_list: "Manipulation,Computer Vision,Machine Learning"
+  status: "Usable"
+  image: "/assets/imgs/Mantis.jpg"
+  image_transparent: "/assets/imgs/Mantis.jpg"
+  tag_list: "Manipulation,Computer Vision,Machine Learning,VLA"
   overview_list: "
+      6 Degrees of freedom per arm (two arms)
+      --
       Precise position and velocity control
+      --
+      Control frequency of 500Hz
+      --
+      5 kg payload / arm
       --
       Interchangeable grippers (parallel, tri-fingers, Allegro hand, ...)
       --
@@ -18,9 +25,66 @@ UR5:
   usage_list: "
       Policy learning in controlled environments
   "
+
+SO100:
+  fullname: "SO-100 LeRobot "
+  description: ""
+  status: "Usable"
+  image: "/assets/imgs/SO100.jpg"
+  image_transparent: "/assets/imgs/SO100.jpg"
+  tag_list: "Manipulation,Computer Vision,Machine Learning,VLA"
+  overview_list: "
+      7 Degrees of freedom per arm (two arms)
+      --
+      Pair consiting of a passive arm for teleoperation and active arm for manipulation.
+      --
+      Position control
+      --
+      Position, velocity and Effort feedback
+      --
+      External cameras can be fixed to the table
+      --
+      Uniform black enclosure for neutral background
+  "
+  usage_list: "
+      Vision-Language Action models 
+  "
+
+
+Franka: 
+  fullname: "Franka Research 3"
+  description: ""
+  status: "Usable"
+  image: "/assets/imgs/Franka.jpg"
+  image_transparent: "/assets/imgs/Franka.jpg"
+  tag_list: "Manipulation,Computer Vision,Machine Learning,Contact Estimation,Torque control"
+  overview_list: "
+      7 Degrees of freedom
+      --
+      Precise position, velocity and torque control
+      --
+      Control frequency of 1kHz
+      --
+      3 kg payload
+      --
+      Interchangeable grippers (parallel ...)
+      --
+      Torque sensor on each joint
+      --
+      Possibility to add a camera to the wrist
+      --
+      Rigid workbench and well modeled environment
+      --
+      Highly customizable through large variety anchor points (for external cameras, objects, ...)
+  "
+  usage_list: "
+      Contact interaction
+  "
+
 Shadow:
   fullname: "Shadow Hand"
   description: ""
+  status: "Usable"
   image: "/assets/imgs/Shadow.jpg"
   image_transparent: "/assets/imgs/Shadow_transparent.png"
   tag_list: "Dexterous Manipulation,Tactile sensing,Contact Interaction"
@@ -38,11 +102,13 @@ Shadow:
       --
       Contact interaction
   "
+
 Upkie:
   fullname: "Upkie"
   description: ""
-  image: "/assets/imgs/Upkie.jpg"
-  image_transparent: "/assets/imgs/Upkie_transparent.png"
+  status: "Usable"
+  image: "/assets/imgs/UpkieV2_square.jpg"
+  image_transparent: "/assets/imgs/UpkieV2_square.jpg"
   tag_list: "Control,Estimation,Balancing"
   overview_list: "
       Wheeled biped
@@ -58,6 +124,8 @@ Upkie:
       Onboard battery (long autonomy)
       --
       Onboard computer (Raspberry Pi)
+      --
+      High FOV front camera (Oak D pro W)
   "
   usage_list: "
       Policy learning
@@ -66,22 +134,96 @@ Upkie:
       --
       State estimation
   "
+
+G1:
+  fullname: "Unitree G1"
+  description: ""
+  status: "Usable"
+  image: "/assets/imgs/G1.jpg"
+  image_transparent: "/assets/imgs/G1.jpg"
+  tag_list: "Locomotion, Manipulation, Control, Estimation, Machine Learning "
+  overview_list: "
+
+      27 to 43 DoFs depending on using 3 fingered hands & waist unlocked
+      --
+      2 DOFs of the 3 DOFs of the waist can be locked
+      --
+      Swappable hands (dummy or DEX 3-1 hands with 7 DOFs)
+      --
+      3 kg of payload for an arm
+      --
+      Torque controlled with transparent actuators (low reduction ratios)
+      --
+      Embedded sensors : 1x 3D Lidars, RGB camera, 2x IMUs
+      --
+      Embedded computational power : 8-core CPU + NVIDIA Jetson Orin (both internal)
+      --
+      Swappable battery with long autonomy (~2/3h)
+      --
+      Wireless E-stop
+
+  "
+  usage_list: "
+      Retargetting
+      --
+      Model predictive control
+      --
+      Whole body control
+  "
+
 Go2:
   fullname: "Unitree Go 2"
   description: ""
-  image: "/assets/imgs/Unitree_Go_2.webp"
-  image_transparent: "/assets/imgs/Unitree_Go_2.webp"
+  status: "Usable"
+  image: "/assets/imgs/Go2_Wifi.jpg"
+  image_transparent: "/assets/imgs/Go2_Wifi.jpg"
   tag_list: "Locomotion,Control,Estimation"
   overview_list: "
       12 DoFs Quadruped
       --
-      8 Kg of payload
+      8 kg of payload
       --
       Torque controlled with transparent actuators (low reduction ratios)
       --
       Embedded sensors : 2x 3D Lidars, foot-end force sensors, RGB camera
       --
-      Embedded computational power : 8-core CPU + NVIDIA Jetson Orin
+      Possibility to attach external sensors/tools : Pan-Tilt caméra, 4G router
+      --
+      Embedded computational power : 8-core  CPU + addon NVIDIA Jetson Orin NX
+      --
+      Swappable battery with long autonomy
+      --
+      Wireless E-stop
+
+  "
+  usage_list: "
+      Model predictive control
+      --
+      Whole body control
+      --
+      Contact interaction
+      --
+      State estimation
+  "
+
+
+Go2W:
+  fullname: "Unitree Go 2 Wheeled"
+  description: ""
+  status: "Usable"
+  image: "/assets/imgs/Go2W_transparent.png"
+  image_transparent: "/assets/imgs/Go2W_transparent.png"
+  tag_list: "Locomotion,Control,Estimation"
+  overview_list: "
+      12 DoFs Quadruped
+      --
+      8 kg of payload
+      --
+      Torque controlled with transparent actuators (low reduction ratios)
+      --
+      Embedded sensors : 2x 3D Lidars, foot-end force sensors, RGB camera
+      --
+      Embedded computational power : 8-core  CPU + addon NVIDIA Jetson Orin
       --
       Swappable battery with long autonomy.
   "
@@ -94,9 +236,42 @@ Go2:
       --
       State estimation
   "
-Tiago:
+
+
+Tiago_Pro:
+  fullname: "PAL TiaGo Pro"
+  description: ""
+  status: "Usable"
+  image: "/assets/imgs/TiagoPro.jpg"
+  image_transparent: "/assets/imgs/TiagoPro.jpg"
+  tag_list: "SLAM,Localization,Mapping,Planning"
+  overview_list: "
+      Wheeled, humanoid-like, with extensible torso and orientable head
+      --
+      Two 7 DOFs Serial Elastic Joints arms with precise torque control
+      --
+      Torque feedback on each joint
+      --
+      Omni-wheeled (non-honolomic) base
+      --
+      Variety of embedded sensors : RGB-D cameras (1x head, 2x optionnal on end effector), 2x 2D-LiDARs on base
+      --
+      Embedded power supply (long battery life)
+      --
+      Embedded computing power
+  "
+  usage_list: "
+      Simultaneous Location and Mapping (SLAM)
+      --
+      Bimanipulation
+      --
+      Task Planning
+  "
+  
+Tiago++:
   fullname: "Tiago++"
   description: ""
+  status: "Retired"
   image: "/assets/imgs/Tiago.png"
   image_transparent: "/assets/imgs/Tiago_transparent.png"
   tag_list: "SLAM,Localization,Mapping,Planning"
@@ -116,11 +291,13 @@ Tiago:
       --
       Task planning
   "
+
 MoCap:
-  fullname: "Motion Capture System"
+  fullname: "Qualisys Motion Capture System"
   description: ""
+  status: "Usable"
   image: "/assets/imgs/MoCap.png"
-  image_transparent: "/assets/imgs/MoCap_transparent.png"
+  image_transparent: "/assets/imgs/Mocap.jpg"
   tag_list: ""
   overview_list: "
       Track single points or rigid object
@@ -138,9 +315,11 @@ MoCap:
       --
       Dataset collection
   "
+
 Solo:
   fullname: "ODRI Solo-12"
   description: ""
+  status: "Retired"
   image: "/assets/imgs/Solo.jpg"
   image_transparent: "/assets/imgs/Solo_transparent.png"
   tag_list: "Locomotion,Control,Estimation"
@@ -164,9 +343,11 @@ Solo:
       --
       State estimation
   "
+
 Allegro:
   fullname: "Allegro Hand"
   description: ""
+  status: "Usable"
   image: "/assets/imgs/Allegro.jpg"
   image_transparent: "/assets/imgs/Allegro_transparent.png"
   tag_list: "Dexterous Manipulation"
