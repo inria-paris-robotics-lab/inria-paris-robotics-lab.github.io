@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Upkie
+title: Tiago Pro
 ---
 
 {% include robot.markdown
-    robot="Upkie"
+    robot="Tiago Pro"
 %}

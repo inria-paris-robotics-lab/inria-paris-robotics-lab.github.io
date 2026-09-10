@@ -5,47 +5,29 @@ title: Robots
 
 # Our robots
 
-{% for robot in site.data.robots %}
-{% assign robot_name = robot[0] %}
-{% assign robot_info = robot[1] %}
-<div class="robot-card" onclick="location.href='/Robots/{{ robot_info.status }}/{{ robot_name }}.html';">
-    <div class="robot-img">
-        <img src="{{robot_info.image_transparent}}" height="200px"/>
-    </div>
-    <div class="robot-description">
-        <h2>{{ robot_info.fullname }}</h2>
-
-        <div class="tag-list">
-            {% assign tag_list = robot_info.tag_list | split: ',' %}
-            {% for tag in tag_list %} <code>{{ tag }}</code> {% endfor %}
-        </div>
-    </div>
+<div class="card" onclick="location.href='/Robots/Current/index.html';">
+    <h1>Robots currently in use</h1>
 </div>
-{% endfor %}
+
+<div class="card" onclick="location.href='/Robots/Retired/index.html';">
+    <h1>Robots retired</h1>
+</div>
 
 <style>
-.robot-card {
-    display:flex;
+
+.card {
+
     margin:5%;
     border:solid rgba(0, 0, 0, 0) 1px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 10px; 
     cursor: pointer;
-}
-
-.robot-img {
-    width:50%;
-    height:auto;
+    vertical-align: middle;
     text-align: center;
+    line-height: 90px; 
 }
 
-.robot-description {
-    position:relative;
-    width:50%;
-
-}
-
-.robot-card:hover {
+.card:hover {
     opacity: 75%;
 
     /* Extra transparency for some elements */
@@ -55,32 +37,13 @@ title: Robots
     }
 }
 
-.tag-list {
-    text-align: center;
-    position:absolute;
-    bottom:0px;
-    width:100%;
-  }
-
-.tag-list code {
-    white-space: nowrap;
-    overflow: auto;
-    display: inline-block;
-}
-
 @media screen and (max-width: 600px) {
-    .robot-card {
-        flex-direction: column;
+    .card {
+        flex-direction: row;
         div {
             width: 90%;
             margin:auto;
         }
-    }
-    .robot-description {
-        text-align: center;
-    }
-    .tag-list {
-        position:relative;
     }
 }
 </style>

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Tiago
+title: Unitree G1
 ---
 
 {% include robot.markdown
-    robot="Tiago"
+    robot="G1"
 %}

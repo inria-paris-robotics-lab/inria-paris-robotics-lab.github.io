@@ -18,8 +18,12 @@ title: Publications
     <tr>
         <td>
         {% for robot in item.Robots %}
-            {% assign robot_url = 'Robots/' | append: robot | append: '.html' | relative_url %}
-            <a class="page-link" href="{{ robot_url }}">{{ robot }}</a>
+            {% for robot_data in site.data.robots %}
+                {% if robot_data[0] == robot %}
+                    {% assign robot_url = 'Robots/' | append: robot_data[1].status | append: '/' | append: robot | append: '.html' | relative_url %}
+                    <a class="page-link" href="{{ robot_url }}">{{ robot }}</a>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
         </td>
         <td> <strong>{{ item.Title }}</strong>
