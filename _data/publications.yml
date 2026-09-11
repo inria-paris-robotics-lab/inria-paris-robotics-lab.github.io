@@ -1,3 +1,9 @@
+- Robots: ["UR5"]
+  Title: 'Guardian: Detecting Robotic Manipulation Failures with Vision-Language Models'
+  Authors: "Paul Pacaud, Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
+  Publisher: "WACV"
+  Year: "2027"
+
 - Robots: ["Upkie"]
   Title: "Collision avoidance from monocular vision trained with novel view synthesis"
   Authors: " Valentin Tordjman--Levavasseur, Stéphane Caron"
@@ -16,29 +22,29 @@
   Publisher: "ICRA"
   Year: "2026"
 
-- Robots: ["UR5"]
-  Title: "Guardian: Detecting Robotic Planning and Execution Errors with Vision-Language Models"
-  Authors: " Paul Pacaud, Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
-  Publisher: ""
-  Year: "2025"
-  
+- Robots: ["UR5", "SO100"]
+  Title: 'PointACT: Vision-Language-Action models with Multi-Scale Point-Action Interaction'
+  Authors: "Shizhe Chen, Paul Pacaud, Cordelia Schmid"
+  Publisher: "RSS"
+  Year: "2026"
+
 - Robots: ["Allegro", "UR5"]
   Title: "ViViDex: Learning Vision-based Dexterous Manipulation from Human Videos"
   Authors: "Zerui Chen, Shizhe Chen, Etienne Arlaud, Ivan Laptev, Cordelia Schmid"
-  Publisher: ""
-  Year: "2024"
+  Publisher: "ICRA"
+  Year: "2025"
 
 - Robots: ["UR5"]
   Title: "Towards Generalizable Vision-Language Robotic Manipulation: A Benchmark and LLM-guided 3D Policy"
   Authors: "Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
-  Publisher: ""
-  Year: "2024"
+  Publisher: "ICRA"
+  Year: "2025"
 
 - Robots: ["Upkie"]
   Title: "A Data-driven Contact Estimation Method for Wheeled-Biped Robots"
   Authors: "Ü. Bora Gökbakan, Frederike Dümbgen, Stéphane Caron"
-  Publisher: ""
-  Year: "2024"
+  Publisher: "ICRA"
+  Year: "2025"
 
 - Robots: ["Solo"]
   Title: "Parallel and Proximal Constrained Linear-Quadratic Methods for Real-Time Nonlinear MPC"
