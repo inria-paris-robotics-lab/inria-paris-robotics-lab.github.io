@@ -8,13 +8,21 @@ title: Robots
 {% for robot in site.data.robots %}
 {% assign robot_name = robot[0] %}
 {% assign robot_info = robot[1] %}
+{% assign robot_status = robot[1].status %}
+{% if robot_status == 'Retired'%}
+    {% assign status_color = 'red' %}
+{% else %} 
+    {% assign status_color = 'green' %}
+{% endif %}
 <div class="robot-card" onclick="location.href='/Robots/{{ robot_name }}.html';">
     <div class="robot-img">
         <img src="{{robot_info.image_transparent}}" height="200px"/>
     </div>
     <div class="robot-description">
-        <h2>{{ robot_info.fullname }}</h2>
-
+        <h2 style= "margin-bottom: 0px;">{{ robot_info.fullname }}</h2>
+        <div class="robot-status">
+        <h3> Status : <span style= "color:{{status_color}};"> <b> {{ robot_status }}</b></span> </h3>
+        </div>
         <div class="tag-list">
             {% assign tag_list = robot_info.tag_list | split: ',' %}
             {% for tag in tag_list %} <code>{{ tag }}</code> {% endfor %}
@@ -66,6 +74,11 @@ title: Robots
     white-space: nowrap;
     overflow: auto;
     display: inline-block;
+}
+
+.robot-status {
+    text-align: left;
+
 }
 
 @media screen and (max-width: 600px) {

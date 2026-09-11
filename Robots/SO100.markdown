@@ -1,0 +1,8 @@
+---
+layout: default
+title: SO100
+---
+
+{% include robot.markdown
+    robot="SO100"
+%}

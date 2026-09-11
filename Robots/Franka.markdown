@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Tiago
+title: Franka
 ---
 
 {% include robot.markdown
-    robot="Tiago"
+    robot="Franka"
 %}
