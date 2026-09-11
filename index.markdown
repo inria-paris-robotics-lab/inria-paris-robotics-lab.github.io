@@ -26,7 +26,7 @@ Our research spans across a wide range of fields from "classical robotics", with
             <a class="page-link" href="{{ robot_url }}">{{ robot }}</a>
         {% endfor %}
         </td>
-        <td> <strong>{{ item.Title }}</strong>
+        <td> <a href="{{ item.Paper_link }}"><strong>{{ item.Title }}</strong></a>
             <br/>
             {{ item.Authors }}
             <br/>

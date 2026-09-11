@@ -6,6 +6,12 @@
 {% assign overview_list = robot_info.overview_list | split: '--' %}
 {% assign usage_list = robot_info.usage_list | split: '--' %}
 {% assign img_url = robot_info.image | relative_url %}
+{% assign robot_status = robot_info.status %}
+{% if robot_status == 'Retired'%}
+    {% assign status_color = 'red' %}
+{% else %} 
+    {% assign status_color = 'green' %}
+{% endif %}
 
 # {{ robot_info.fullname }}
 
@@ -26,10 +32,7 @@
             <li>{{ item }}</li>
             {% endfor %}
         </ul>
-
-        <h3>Current status: <b>{{robot_info.status}}</b> </h3>
-        
-
+        <h3>Current status:<span style= "color:{{status_color}};"> <b> {{ robot_status }}</b></span></h3> 
     </div>
 </div>
 
@@ -45,7 +48,7 @@
 {% for item in site.data.publications %}
     {% if item.Robots contains include.robot %}
         <tr>
-            <td> <strong>{{ item.Title }}</strong>
+            <td><a href="{{ item.Paper_link }}"><strong>{{ item.Title }}</strong></a>
                 <br/>
                 {{ item.Authors }}
                 <br/>

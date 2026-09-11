@@ -3,129 +3,158 @@
   Authors: "Paul Pacaud, Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
   Publisher: "WACV"
   Year: "2027"
+  Paper_link: "https://arxiv.org/pdf/2512.01946"
 
 - Robots: ["Upkie"]
   Title: "Collision avoidance from monocular vision trained with novel view synthesis"
   Authors: " Valentin Tordjman--Levavasseur, Stéphane Caron"
   Publisher: "IROS"
   Year: "2026"
+  Paper_link: "https://arxiv.org/pdf/2504.06651"
 
 - Robots: ["Go2"]
   Title: "Reference-Free Sampling-Based Model Predictive Control"
   Authors: " Fabian Schramm, Pierre Fabre, Nicolas Perrin-Gilbert, Justin Carpentier"
   Publisher: "ICRA"
   Year: "2026"
+  Paper_link: "https://arxiv.org/pdf/2511.19204"
 
 - Robots: ["Franka"]
   Title: "Frictional Contact-Implicit Inverse Dynamics via Complementarity-Constrained Optimization"
   Authors: " Pierre Fabre, Etienne Ménager, Antoine Bambade, Wilson Jallet, Alberto de Marchi, Justin Carpentier"
   Publisher: "ICRA"
   Year: "2026"
+  Paper_link: "https://hal.science/hal-05637122v1"
 
 - Robots: ["UR5", "SO100"]
   Title: 'PointACT: Vision-Language-Action models with Multi-Scale Point-Action Interaction'
   Authors: "Shizhe Chen, Paul Pacaud, Cordelia Schmid"
   Publisher: "RSS"
   Year: "2026"
+  Paper_link: "https://arxiv.org/pdf/2605.21414"
+
+- Robots: ["UR5"]
+  Title: "Gondola : Grounded Vision Language Planningvfor Generalizable Robotic Manipulation"
+  Authors: "Shizhe Chen, Ricardo Garcia, Paul Pacaud, Cordelia Schmid"
+  Publisher: "IROS"
+  Year: "2026"
+  Paper_link: "https://arxiv.org/pdf/2404.15709"
 
 - Robots: ["Allegro", "UR5"]
   Title: "ViViDex: Learning Vision-based Dexterous Manipulation from Human Videos"
   Authors: "Zerui Chen, Shizhe Chen, Etienne Arlaud, Ivan Laptev, Cordelia Schmid"
   Publisher: "ICRA"
   Year: "2025"
+  Paper_link: "https://arxiv.org/pdf/2404.15709"
 
 - Robots: ["UR5"]
   Title: "Towards Generalizable Vision-Language Robotic Manipulation: A Benchmark and LLM-guided 3D Policy"
   Authors: "Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
   Publisher: "ICRA"
   Year: "2025"
+  Paper_link: "https://arxiv.org/pdf/2410.01345"
 
 - Robots: ["Upkie"]
   Title: "A Data-driven Contact Estimation Method for Wheeled-Biped Robots"
   Authors: "Ü. Bora Gökbakan, Frederike Dümbgen, Stéphane Caron"
   Publisher: "ICRA"
   Year: "2025"
+  Paper_link: "https://arxiv.org/pdf/2410.12345"
 
 - Robots: ["Solo"]
   Title: "Parallel and Proximal Constrained Linear-Quadratic Methods for Real-Time Nonlinear MPC"
   Authors: "Wilson Jallet, Ewen Dantec, Etienne Arlaud, Justin Carpentier, Nicolas Mansard"
   Publisher: "RSS"
   Year: "2024"
+  Paper_link: "https://arxiv.org/pdf/2405.09197"
 
 - Robots: ["Solo"]
   Title: "Proxddp: Proximal constrained trajectory optimization"
   Authors: "Wilson Jallet, Antoine Bambade, Etienne Arlaud, Sarah El-Kazdadi, Nicolas Mansard, Justin Carpentier"
   Publisher: "T-RO"
   Year: "2023"
+  Paper_link: "https://hal.science/hal-04332348v3"
 
 - Robots: ["UR5"]
   Title: "PolarNet: 3D Point Clouds for Language-Guided Robotic Manipulation"
   Authors: "Shizhe Chen, Ricardo Garcia, Ivan Laptev, Cordelia Schmid"
   Publisher: "CoRL"
   Year: "2023"
+  Paper_link: "https://arxiv.org/pdf/2309.15596"
 
 - Robots: ["Tiago++"]
   Title: "Object Goal Navigation with Recursive Implicit Maps"
   Authors: "Shizhe Chen, Thomas Chabal, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2023"
+  Paper_link: "https://arxiv.org/pdf/2308.05602"
 
 - Robots: ["Solo", "MoCap"]
   Title: "Risk-Sensitive Extended Kalman Filter"
   Authors: "Armand Jordana, Avadesh Meduri, Etienne Arlaud, Justin Carpentier, Ludovic Righetti"
   Publisher: "hal-04107207"
   Year: "2023"
+  Paper_link: "https://arxiv.org/pdf/2305.11573"
 
 - Robots: ["MoCap"]
-  Title: "Dense Image Registration, Camera Pose and Depth Estimation from Bursts"
-  Authors: "Bruno Lecouat, Yann Dubois de Mont-Marin, Théo Bodrito, Jean Ponce, Julien Mairal"
+  Title: "Fine Dense Alignment of Image Bursts through Camera Pose and Depth Estimation"
+  Authors: "Bruno Lecouat, Yann Dubois de Mont-Marin, Théo Bodrito, Julien Mairal, Jean Ponce"
   Publisher: ""
   Year: "2023"
+  Paper_link: "https://arxiv.org/pdf/2312.05190"
 
 - Robots: ["UR5"]
   Title: "Robust visual sim-to-real transfer for robotic manipulation"
   Authors: "Ricardo Garcia, Robin Strudel, Shizhe Chen, Etienne Arlaud, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2023"
+  Paper_link: "https://arxiv.org/pdf/2307.15320"
 
 - Robots: ["Upkie"]
   Title: "PROXQP: an Efficient and Versatile Quadratic Programming Solver for Real-Time Robotics Applications and Beyond"
   Authors: "Antoine Bambade, Fabian Schramm, Sarah El Kazdadi, Stéphane Caron, Adrien Taylor, Justin Carpentier"
   Publisher: "RSS"
   Year: "2022"
+  Paper_link: "https://hal.science/hal-04198663v4"
 
 - Robots: ["UR5"]
   Title: "Instruction-driven history-aware policies for robotic manipulations"
   Authors: "Pierre-Louis Guhur, Shizhe Chen, Ricardo Garcia, Makarand Tapaswi, Ivan Laptev, Cordelia Schmid"
   Publisher: "CoRL"
   Year: "2022"
+  Paper_link: "https://arxiv.org/pdf/2209.04899"
 
 - Robots: ["UR5"]
   Title: "Assembly Planning from Observations under Physical Constraints"
   Authors: "Thomas Chabal, Robin Strudel, Etienne Arlaud, Jean Ponce, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2022"
+  Paper_link: "https://arxiv.org/pdf/2204.09616"
 
 - Robots: ["UR5"]
   Title: "Monte-Carlo Tree Search for Efficient Visually Guided Rearrangement Planning"
   Authors: "Yann Labbé, Sergey Zagoruyko, Igor Kalevatykh, Ivan Laptev, Justin Carpentier, Mathieu Aubry, Josef Sivic"
   Publisher: "RAL"
   Year: "2020"
+  Paper_link: "https://arxiv.org/pdf/1904.10348"
 
 - Robots: ["UR5"]
   Title: "Learning to combine primitive skills: A step towards versatile robotic manipulation"
   Authors: "Robin Strudel, Alexander Pashevich, Igor Kalevatykh, Ivan Laptev, Josef Sivic, Cordelia Schmid"
   Publisher: "ICRA"
   Year: "2020"
+  Paper_link: "https://arxiv.org/pdf/1908.00722"
 
 - Robots: ["UR5"]
   Title: "Learning visual policies for building 3D shape categories"
   Authors: "Alexander Pashevich, Robin Strudel, Igor Kalevatykh, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2020"
+  Paper_link: "https://arxiv.org/pdf/2004.07950"
 
 - Robots: ["UR5"]
   Title: "Learning to augment synthetic images for sim2real policy transfer"
   Authors: "Alexander Pashevich, Robin Strudel, Igor Kalevatykh, Ivan Laptev, Cordelia Schmid"
   Publisher: "IROS"
   Year: "2019"
+  Paper_link: "https://arxiv.org/pdf/1903.07740"
